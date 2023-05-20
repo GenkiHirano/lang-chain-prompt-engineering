@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 from langchain import PromptTemplate
 import os
 
-os.environ["OPENAI_API_KEY"] = "..."
+os.environ["OPENAI_API_KEY"] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 
 
 # OpenAIのモデルのインスタンスを作成
