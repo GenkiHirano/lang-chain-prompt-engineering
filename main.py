@@ -1,10 +1,11 @@
 from langchain import LLMChain
 from langchain.llms import OpenAI
 from langchain import PromptTemplate
+from dotenv import load_dotenv
 import os
 
-os.environ["OPENAI_API_KEY"] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-
+load_dotenv()
+os.getenv("OPENAI_API_KEY")
 
 # OpenAIのモデルのインスタンスを作成
 llm = OpenAI(model_name="text-davinci-003")
